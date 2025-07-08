@@ -1,26 +1,29 @@
-import React from 'react';
+import React from "react"
 
 function Skills() {
   const skills = [
-    { name: 'Java', level: 65 },
-    { name: 'Spring Boot', level: 60 },
-    { name: 'React', level: 60 },
-    { name: 'PostgreSQL', level: 75 },
-    { name: 'Spring Security', level: 64 },
-  
+    { name: "Java", level: 65 },
+    { name: "Spring Boot", level: 60 },
+    { name: "React", level: 60 },
+    { name: "PostgreSQL", level: 75 },
+    { name: "Spring Security", level: 64 },
+    { name: "Python", level: 40 }, // Added Python // Added Flask
+    { name: "Perl", level: 50 }, // Added Perl
   ];
 
   const technologies = [
-    { name: 'Java', icon: '☕' },
-    { name: 'Spring Boot', icon: '🌱' },
-    { name: 'Spring Security', icon: '🔒' },
-    { name: 'React', icon: '⚛️' },
-    { name: 'PostgreSQL', icon: '🐘' },
-    { name: 'Vscript', icon: '📜' },
-    { name: 'Git', icon: '🌿' },
-    { name: 'Docker', icon: '🐳' },
-    { name: 'Postman', icon: '📬' },
-    { name: 'Swagger', icon: '📚' },
+    { name: "Java", icon: "☕" },
+    { name: "Spring Boot", icon: "🌱" },
+    { name: "Spring Security", icon: "🔒" },
+    { name: "React", icon: "⚛️" },
+    { name: "PostgreSQL", icon: "🐘" },
+    { name: "Git", icon: "🌿" },
+    { name: "Docker", icon: "🐳" },
+    { name: "Postman", icon: "📬" },
+    { name: "Swagger", icon: "📚" },
+    { name: "Python", icon: "🐍" }, // Added Python
+    { name: "Flask", icon: "⚗️" }, // Added Flask
+    { name: "Perl", icon: "🦪" }, // Added Perl
   ];
 
   return (
